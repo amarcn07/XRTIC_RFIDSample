@@ -23,6 +23,8 @@
 #define DOGS102x6_DRAW_NORMAL 0x00
 #define DOGS102x6_DRAW_INVERT 0x01
 
+#define UART_BASE               EUSCI_A0_BASE
+
 #include "tag_header.h"
 
 //
@@ -97,6 +99,8 @@ void initialize_LaunchpadLED2_green();
 void turnOn_LaunchpadLED2_green();
 void turnOff_LaunchpadLED2_green();
 void toggle_LaunchpadLED2_green();
+
+void transmitString(uint8_t*);
 
 uint8_t g_ui8TxBuffer[256];
 uint8_t g_ui8TxLength;
@@ -258,6 +262,7 @@ void main(void)
                         if (tag_present == false){
                             turnOn_LaunchpadLED2_green();
                             tag_present = true;
+                            transmitString(" Type 2 NFC tag detected \n\r");
                         }
                     }
                     else if(NFC_A_getSAK() & 0x20)
@@ -285,6 +290,8 @@ void main(void)
                     if (tag_present == false){
                         turnOn_LaunchpadLED1();
                         tag_present = true;
+                        transmitString(" Type 5 NFC tag detected \n\r");
+
                     }
                     //T5T_stateMachine();
                 }
@@ -1329,4 +1336,15 @@ void EusciA0_ISR(void)
    {
        // Do nothing
    }
+}
+
+void transmitString(uint8_t* s)
+{
+    uint8_t x = 0;
+    while(s[x] != 0)
+    {
+        UART_transmitData(UART_BASE, s[x]);
+        x++;
+    }
+
 }

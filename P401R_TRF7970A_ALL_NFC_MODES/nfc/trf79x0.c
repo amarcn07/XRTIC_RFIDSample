@@ -2306,7 +2306,7 @@ uint8_t TRF79x0_initiatorModeSetup(
 	}
 	else
 	{
-		TRF79x0_writeSingle(0x00, TRF79X0_REGULATOR_CONTROL_REG);
+		TRF79x0_writeSingle(0x06, TRF79X0_REGULATOR_CONTROL_REG);
 	}
 
 	//

@@ -5,7 +5,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.MSP432P401R.ccxml.Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0" value="${build_artifact:P401R_TRF7970A_ALL_NFC_MODES}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.MSP432P401R.ccxml.Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0" value="P401R_TRF7970A_ALL_NFC_MODES"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:P401R_TRF7970A_ALL_NFC_MODES}"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.MSP432P401R.ccxml.Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0" value="C:\Users\amarc\git\XRTIC20_RFID\P401R_TRF7970A_ALL_NFC_MODES\Debug\P401R_TRF7970A_ALL_NFC_MODES.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.MSP432P401R.ccxml.Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0" value="C:\Users\amarc\git\repository\P401R_TRF7970A_ALL_NFC_MODES\Debug\P401R_TRF7970A_ALL_NFC_MODES.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/P401R_TRF7970A_ALL_NFC_MODES"/>
 </listAttribute>
