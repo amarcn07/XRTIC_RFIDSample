@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>P401R_TRF7970A_ALL_NFC_MODES</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.ti.ccstudio.core.ccsNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>DRIVERLIB_DIR</name>
+			<value>$%7BPARENT-4-ORIGINAL_PROJECT_ROOT%7D/driverlib432</value>
+		</variable>
+		<variable>
+			<name>NFCLINK_DIR</name>
+			<value>$%7BPARENT-4-ORIGINAL_PROJECT_ROOT%7D/nfclink</value>
+		</variable>
+		<variable>
+			<name>ORIGINAL_PROJECT_ROOT</name>
+			<value>file:/C:/ti/nfc/TRF7970A_RW_1.03.00/examples/boards/MSP-EXP432P401R/P401R_TRF7970A_ALL_NFC_MODES</value>
+		</variable>
+	</variableList>
+</projectDescription>
